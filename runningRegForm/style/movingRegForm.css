@@ -7,7 +7,7 @@ body, div, form, span{
 .regForm{
 	border: 1px solid red;
 	position: absolute;
-	width: 19rem;
+	width: 18rem;
 	height: 5rem;
 }
 /*poletata kam formata za registraciq*/
@@ -17,8 +17,24 @@ body, div, form, span{
 	display: block;
 	float: left;
 }
-/*input poletata kam formata za registraciq*/
+/*holdera na tekstovite poleta*/
 .regFieldInputs{
 	display: block;
 	float: left;
+}
+/*mqstoto v koeto shte pokazvame smeshnoto sadarjanie, kato molq izkaraite fast track kurs za...*/
+.funContent{
+	width: 0px;
+	height: 0px;
+	background: white;
+	position: absolute;
+}
+/*span pole s natiskaneto na koeto izlizame ot zatamnenoto prostranstvo*/
+.closeFunContent{
+	position: relative;
+	display: block;
+	visibility:hidden;
+	color: red;
+	font-weight: bold;
+	float: right;
 }
