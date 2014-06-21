@@ -1,0 +1,24 @@
+/*restartirame*/
+body, div, form, span{
+	margin: 0px;
+	padding: 0px;
+}
+/*formata za registraciq*/
+.regForm{
+	border: 1px solid red;
+	position: absolute;
+	width: 19rem;
+	height: 5rem;
+}
+/*poletata kam formata za registraciq*/
+.regFieldNames{
+	width: 9rem;
+	position: relative;
+	display: block;
+	float: left;
+}
+/*input poletata kam formata za registraciq*/
+.regFieldInputs{
+	display: block;
+	float: left;
+}
