@@ -22,7 +22,7 @@ $(document).ready(function(){
 	//funkciq, vzemashta random visochinata na monitora
 	function getRandHeight(width, height, elementHeight){
 		delitel=timeWork()%10;
-		if(delitel<=0 || delitel==isNaN){
+		if(delitel<=0 || isNaN(delitel)){
 			delitel=1;
 		}
 		var seconds=timeWork()/delitel;
@@ -44,9 +44,30 @@ $(document).ready(function(){
 			return randLength;
 		}
 	}
-	$(".regForm").on("mouseover", function(event){
+	//funkciq, vzemashta tova, kolko pati sme minali s mishkata prez formata za registraciq
+	//za zapazvane na dannite izpolozvame "hidden" pole s klas "mouseTurns"
+	function mouseTurns(){
+		var count=$(".mouseTurns").val();
+		if(isNaN(count)==true || count<1 || count==''){
+			count=1;
+			$(".mouseTurns").val(1);
+			return 1;
+		}
+		else{
+			count=parseInt(count);
+			count+=1;
+			$(".mouseTurns").val(count);
+			return count;
+		}
+	}
+	//rezultatat ot vsi4ko
+	function move(){
 		var randWidth=getRandWidth(screenWidth, screenHeight, regWidth);
 		var randHeight=getRandHeight(screenWidth, screenHeight, regHeight);
-		$(this).css({"top": randHeight + "px", "left": randWidth + "px"});
+		$(".regForm").css({"top": randHeight + "px", "left": randWidth + "px"});
+		mouseTurns();
+	}
+	$(".regForm").on("mouseover", function(){
+		move();
 	});
 });
