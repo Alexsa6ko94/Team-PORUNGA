@@ -5,14 +5,20 @@
 <title>Untitled Document</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/movingRegForm.js"></script>
+<script src="js/showingFunContent.js"></script>
 <link rel="stylesheet" href="style/movingRegForm.css" type="text/css" />
 </head>
-
 <body>
+<div class='funContent'>
+<span class='closeFunContent'>
+[ X ]
+</span>
+</div>
 <div class='regForm'>
     <form>
         <span class='regFieldNames'>Име:</span><span class='regFieldInputs'><input type='text' /></span><br />
         <span class='regFieldNames'>Парола:</span><span class='regFieldInputs'><input type='text' /></span><br />
+        <input type='hidden' class='mouseTurns' />
         <input type='submit' />
     </form>
 </div>
