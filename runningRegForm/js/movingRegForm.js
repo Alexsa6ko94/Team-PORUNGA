@@ -1,8 +1,4 @@
 $(document).ready(function(){
-	//promenliva sadarjashta tochnata shiro4ina na monitora
-	var screenWidth=$(window).width();
-	//promenliva sadarjashta to4nata viso4ina na monitora
-	var screenHeight=$(window).height();
 	//vzimame width i height na formata za registaciq
 	var regWidth=$(".regForm").css("width");
 	var regHeight=$(".regForm").css("height");
@@ -16,7 +12,7 @@ $(document).ready(function(){
 	//funkciq vzemashta random shiro4inata na ekrana
 	function getRandWidth(width, height, elementWidth){
 		seconds=timeWork();
-		finalSeconds=dontRunAway(width, elementWidth, seconds);
+		var finalSeconds=dontRunAway(width, elementWidth, seconds);
 		return finalSeconds;
 	}
 	//funkciq, vzemashta random visochinata na monitora
@@ -27,7 +23,7 @@ $(document).ready(function(){
 		}
 		var seconds=timeWork()/delitel;
 		seconds=parseInt(seconds);
-		finalSeconds=dontRunAway(width, elementHeight, seconds);
+		var finalSeconds=dontRunAway(height, elementHeight, seconds);
 		return finalSeconds;
 	}
 	//funckiq, opredelqshta, dali formata za registraciq, nqma da izleze ot ekrana
@@ -37,8 +33,8 @@ $(document).ready(function(){
 	//var elementSize - razmera na formata
 	//var randLength - sluchaino generiranata stoinost
 	function dontRunAway(fullLength, elementSize, randLength){
-		if((elementSize+randLength)>fullLength){
-			return fullLength;
+		if( (parseInt(randLength) ) > ( parseInt(fullLength) - parseInt(elementSize) ) ){
+			return parseInt(fullLength) - parseInt(elementSize) - 2;
 		}
 		else{
 			return randLength;
@@ -60,14 +56,34 @@ $(document).ready(function(){
 			return count;
 		}
 	}
-	//rezultatat ot vsi4ko
-	function move(){
-		var randWidth=getRandWidth(screenWidth, screenHeight, regWidth);
-		var randHeight=getRandHeight(screenWidth, screenHeight, regHeight);
-		$(".regForm").css({"top": randHeight + "px", "left": randWidth + "px"});
-		mouseTurns();
+	//rezultatat ot vsi4ko kogatonaso4vame s mishkata varhu formata
+	//var resize - "true": preorazmerqvame prozoreca, "false": minali sme s mishkata prez prozoreca
+	function move(resize){
+		if(resize==false){
+			var randWidth=getRandWidth($(window).width(), $(window).height(), regWidth);
+			var randHeight=getRandHeight($(window).width(), $(window).height(), regHeight);
+			$(".regForm").css({"top": randHeight + "px", "left": randWidth + "px"});
+			mouseTurns();
+		}
+		else{
+			centerRegForm();
+		}
 	}
+	//funkciq, centrirashta formata za rgisraciq
+	function centerRegForm(){
+		var centerWidth=$(window).width()/2;
+		var randWidth=centerWidth-parseInt($(".regForm").css("width"))/2;
+		var centerHeight=$(window).height()/2;
+		var randHeight=centerHeight-parseInt($(".regForm").css("height"))/2;
+		$(".regForm").css({"top": randHeight + "px", "left": randWidth + "px"});
+	}
+	//deistvame
+	//ako minem s mishkata prez formata mestim q i uveli4avame s 1
 	$(".regForm").on("mouseover", function(){
-		move();
+		move(false);
+	});
+	//ako preorazmerim otnovoq mestim no bez da uveli4avame s 1 za da ne izvikme 4erniqt ekran pri resize
+	$(window).on("resize", function(){
+		move(true);
 	});
 });
