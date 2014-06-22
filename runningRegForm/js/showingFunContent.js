@@ -28,7 +28,7 @@ $(document).ready(function(){
 		$(".funContent").animate({width: "0px", height: "0px"}, 2000);
 		setTimeout(
 			function(){
-				$(".funContent").css({background: "white", opacity: "0"});
+				$(".funContent").css({background: "rgba(255, 255, 255, 0)"});
 				$("body").css({overflow: "auto"});
 				$(".regForm").show();
 		}, 2000);
