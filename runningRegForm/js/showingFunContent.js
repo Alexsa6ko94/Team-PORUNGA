@@ -11,7 +11,7 @@ $(document).ready(function(){
 	//kogato e vreme pokazvame smeshnoto sadarjanie
 	function funChanger(width, height){
 		$(".funContent").animate({width: width + "px", height: height + "px"}, 2000);
-		$(".funContent").css({background: "black", opacity: "0.7"});
+		$(".funContent").css({background: "rgba(0, 0, 0, 0.7)"});
 		$(".closeFunContent").css({visibility: "visible"});
 		//pravim overflow hidden, za da mahnem scrolla dokato imame zatamnen ekran
 		$("body").css({overflow:"hidden"});
