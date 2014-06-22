@@ -37,4 +37,5 @@ body, div, form, span{
 	color: red;
 	font-weight: bold;
 	float: right;
+	cursor: pointer;
 }
