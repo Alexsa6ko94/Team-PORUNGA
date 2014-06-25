@@ -1,12 +1,20 @@
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
 body {
   /* Margin bottom by footer height */
+  min-height: 100%;
   margin-bottom: 60px;
+    /* Margin bottom by footer height */
+	/*margin-bottom: 60px;*/
+	background: -moz-linear-gradient(-45deg,  rgba(233,242,116,0.46) 0%, rgba(212,226,113,0.46) 1%, rgba(46,96,91,0.45) 9%, rgba(175,0,239,0.43) 17%, rgba(160,8,213,0.43) 18%, rgba(52,61,29,0.44) 25%, rgba(140,67,112,0.45) 30%, rgba(193,70,161,0.4) 33%, rgba(203,80,156,0.43) 35%, rgba(239,115,137,0.46) 42%, rgba(225,102,144,0.46) 43%, rgba(110,0,201,0.4) 51%, rgba(19,115,193,0.41) 60%, rgba(151,13,127,0.42) 68%, rgba(168,0,119,0.41) 69%, rgba(19,115,193,0.46) 77%, rgba(33,86,172,0.45) 79%, rgba(73,0,107,0.46) 85%, rgba(1,188,176,0.44) 93%, rgba(157,92,167,0.42) 98%, rgba(219,54,164,0.42) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(233,242,116,0.66)), color-stop(1%,rgba(212,226,113,0.66)), color-stop(9%,rgba(46,96,91,0.65)), color-stop(17%,rgba(175,0,239,0.63)), color-stop(18%,rgba(160,8,213,0.63)), color-stop(25%,rgba(52,61,29,0.64)), color-stop(30%,rgba(140,67,112,0.65)), color-stop(33%,rgba(193,70,161,0.7)), color-stop(35%,rgba(203,80,156,0.73)), color-stop(42%,rgba(239,115,137,0.76)), color-stop(43%,rgba(225,102,144,0.76)), color-stop(51%,rgba(110,0,201,0.7)), color-stop(60%,rgba(19,115,193,0.71)), color-stop(68%,rgba(151,13,127,0.72)), color-stop(69%,rgba(168,0,119,0.71)), color-stop(77%,rgba(19,115,193,0.66)), color-stop(79%,rgba(33,86,172,0.65)), color-stop(85%,rgba(73,0,107,0.76)), color-stop(93%,rgba(1,188,176,0.74)), color-stop(98%,rgba(157,92,167,0.72)), color-stop(100%,rgba(219,54,164,0.72)));
+	background: -webkit-linear-gradient(-45deg,  rgba(233,242,116,0.66) 0%,rgba(212,226,113,0.66) 1%,rgba(46,96,91,0.65) 9%,rgba(175,0,239,0.63) 17%,rgba(160,8,213,0.63) 18%,rgba(52,61,29,0.64) 25%,rgba(140,67,112,0.65) 30%,rgba(193,70,161,0.7) 33%,rgba(203,80,156,0.73) 35%,rgba(239,115,137,0.76) 42%,rgba(225,102,144,0.76) 43%,rgba(110,0,201,0.7) 51%,rgba(19,115,193,0.71) 60%,rgba(151,13,127,0.72) 68%,rgba(168,0,119,0.71) 69%,rgba(19,115,193,0.66) 77%,rgba(33,86,172,0.65) 79%,rgba(73,0,107,0.76) 85%,rgba(1,188,176,0.74) 93%,rgba(157,92,167,0.72) 98%,rgba(219,54,164,0.72) 100%);
+	background: -o-linear-gradient(-45deg,  rgba(233,242,116,0.66) 0%,rgba(212,226,113,0.66) 1%,rgba(46,96,91,0.65) 9%,rgba(175,0,239,0.63) 17%,rgba(160,8,213,0.63) 18%,rgba(52,61,29,0.64) 25%,rgba(140,67,112,0.65) 30%,rgba(193,70,161,0.7) 33%,rgba(203,80,156,0.73) 35%,rgba(239,115,137,0.76) 42%,rgba(225,102,144,0.76) 43%,rgba(110,0,201,0.7) 51%,rgba(19,115,193,0.71) 60%,rgba(151,13,127,0.72) 68%,rgba(168,0,119,0.71) 69%,rgba(19,115,193,0.66) 77%,rgba(33,86,172,0.65) 79%,rgba(73,0,107,0.76) 85%,rgba(1,188,176,0.74) 93%,rgba(157,92,167,0.72) 98%,rgba(219,54,164,0.72) 100%);
+	background: linear-gradient(135deg,  rgba(233,242,116,0.66) 0%,rgba(212,226,113,0.66) 1%,rgba(46,96,91,0.65) 9%,rgba(175,0,239,0.63) 17%,rgba(160,8,213,0.63) 18%,rgba(52,61,29,0.64) 25%,rgba(140,67,112,0.65) 30%,rgba(193,70,161,0.7) 33%,rgba(203,80,156,0.73) 35%,rgba(239,115,137,0.76) 42%,rgba(225,102,144,0.76) 43%,rgba(110,0,201,0.7) 51%,rgba(19,115,193,0.71) 60%,rgba(151,13,127,0.72) 68%,rgba(168,0,119,0.71) 69%,rgba(19,115,193,0.66) 77%,rgba(33,86,172,0.65) 79%,rgba(73,0,107,0.76) 85%,rgba(1,188,176,0.74) 93%,rgba(157,92,167,0.72) 98%,rgba(219,54,164,0.72) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8e9f274', endColorstr='#b8db36a4',GradientType=1 );  
+	color: white;
 }
 #footer {
   position: absolute;
@@ -25,9 +33,6 @@ body {
 	background-color: black;
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
 
 body > .container {
   padding: 60px 15px 0;
@@ -43,4 +48,25 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+.col-sm-4>div {
+	color: white;
+	border: 1px solid;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	background-color: #FF9100;
+	font-weight: bold;
+	color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color:black;
+	background-color: #FF9100;
+	font-weight: bold;
 }
