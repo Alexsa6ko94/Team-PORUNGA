@@ -1,5 +1,5 @@
 /*restartirame*/
-body, div, form, span{
+body, div, form, span, article, section, header, footer, main{
 	margin: 0px;
 	padding: 0px;
 }
@@ -7,7 +7,7 @@ body, div, form, span{
 .regForm{
 	border: 1px solid red;
 	position: absolute;
-	width: 18rem;
+	width: 19rem;
 	height: 5rem;
 }
 /*poletata kam formata za registraciq*/
@@ -37,5 +37,26 @@ body, div, form, span{
 	color: red;
 	font-weight: bold;
 	float: right;
-	cursor: pointer;
+	cursor:pointer;
+}
+/*pole, koqto shte orazmerqva otgore*/
+.funContent > header{
+	display: block;
+	width: 100%;
+	background: green;
+}
+/*pole, koeto shte orazmerqva otdolu*/
+.funContent > footer{
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	width: 100%;
+	background: green;
+}
+/*pole, koeto shte sadarja, to4no tova, koeto hte pokajem na ekrana*/
+.funContent > main{
+	display: block;
+	width: 100%;
+	background: yellow;
+	text-align:center;
 }
