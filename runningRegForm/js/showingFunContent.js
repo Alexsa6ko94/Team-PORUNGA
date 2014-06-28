@@ -11,6 +11,8 @@ $(document).ready(function(){
 			else{
 				funChangerResize($(window).width(), $(window).height());
 			}
+			//orazmerqvame sastavnite chasti na funContenta
+			sizingTheParts($(window).height());
 		}
 	}
 	//kogato e vreme pokazvame smeshnoto sadarjanie
@@ -40,7 +42,15 @@ $(document).ready(function(){
 				$("body").css({overflow: "auto"});
 				$(".regForm").show();
 		}, 2000);
+		//PROTOTIP!! - pri klik na x-a se sktivat texta i kartinkata, koito sa chast ot funcontenta
+		//tova moje da se naloji da se pravi po drugn a4in v proces na rabotata!
+		$(".funContent section article").empty();
 		$(".mouseTurns").val(0);
+	}
+	//funkciq, orazmeravashta sastavnite chasti na poleto s funContent-a
+	function sizingTheParts(height){
+		$(".funContent").children("header, footer").css({height: height/6});
+		$(".funContent").children("main").css({height: height/1.5});
 	}
 	//deistvame
 	$(".regForm").on("mouseover", function(){
