@@ -6,7 +6,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/nextAndPrevImgs.js"></script>
 <link rel="stylesheet" href="style/gallery.css" type="text/css" />
-<link rel="stylesheet" href="style/movingRegForm.css" type="text/css" />
 </head>
 <body>
 <div class='fullGalleryHolder'>
