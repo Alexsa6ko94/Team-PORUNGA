@@ -1,0 +1,80 @@
+/*restartirame*/
+body, div, form, span, article, section, header, footer, main{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	max-width: 100%;
+}
+.big{
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	//visibility: hidden;
+}
+.left{
+	display: inline-block;
+	vertical-align:top;
+	text-align: center;
+}
+.right{
+	display:inline-block;
+	float: right;
+	vertical-align:top;
+	text-align: center;
+}
+.image{
+	display:inline-block;
+	text-align: center;
+}
+.leftArrow, .rightArrow{
+	vertical-align:middle;
+	cursor:pointer;
+}
+.leftArrow:hover, .rightArrow:hover{
+	opacity: 0.5;
+}
+.helper{
+	display: inline-block;
+	height: 100%;
+	vertical-align:middle;
+}
+.virtualImg{
+	vertical-align:middle;
+	cursor: pointer;
+}
+.virtualHelper{
+	display: inline-block;
+	height: 100%;
+	vertical-align:middle;
+}
+.fullGalleryHolder > .images{
+	width: 60%;
+	display: inline-block;
+}
+.fullGalleryHolder > .leftField{
+	width: 20%;
+	height: 300px;
+	vertical-align:top;
+	display: inline-block;
+}
+.fullGalleryHolder > .rightField{
+	width: 20%;
+	height: 300px;
+	vertical-align:top;
+	display: inline-block;
+}
+.smallImgContainer{
+	width: 25%;
+	max-width: 25%;
+	min-width: 100px;
+	display: inline-block;
+	float: left;
+	margin-bottom: -5px;
+	//border: 2px solid red;
+}
+.smallImg{
+	min-width: 100px;
+	cursor:pointer;
+}
