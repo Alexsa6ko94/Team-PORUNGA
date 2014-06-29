@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	function whatIsClicked(what){
 		$.ajax({
-			url: "scripts/gallery.php",
+			url: "scripts/galleryFuncs.php",
 			type: "GET",
 			data: {
 				side: what,
@@ -11,7 +11,7 @@ $(document).ready(function(){
 			}
 		});
 		$.ajax({
-			url: "scripts/gallery.php",
+			url: "scripts/galleryFuncs.php",
 			type: "GET",
 			data: {
 				side: what,
