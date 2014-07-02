@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Jokes</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The funny side of Software University">
-    <meta name="author" content="Alexandar Boyanov">
-    <link rel="shortcut icon" href="Images/favicon1.ico">
-    <link href="Styles/bootstrap.min.css" rel="stylesheet">
-    <link href="Styles/sticky-footer-navbar.css" rel="stylesheet">
-    <style type="text/css"></style>
+<html lang="en">
+<head>
+<?php 
+    include ('includes/metas.php');
+    include ('includes/css.php');
+?>    
     <!--[if lt IE 9]>
     <script src="html5shiv.js"></script>
     <![endif]-->
+    <title>Super Uni Jokes</title>
 </head>
 <body>
 <?php 
