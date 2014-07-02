@@ -64,52 +64,47 @@
 						<div class="col">
 							<div class="b1">
 								<div class="newsTitle">
-									<a href="#">
 										Христо Бисеров заменя Светлин Наков в СофтУни
-									</a>
 								</div>
 								<div class="img">
-									<a href="#">
+									<a href="page1.php">
 										<img alt="" src="./Images/sm_biserov.png">
 									</a>
 								</div>
 								<div class="desc">
-									Напусналият Парламента и водещите си позиции в ДПС Христо Бисеров ще замени създателя на Софтуерния...<a href="#">Още</a>
+									Напусналият Парламента и водещите си позиции в ДПС Христо Бисеров ще замени създателя на Софтуерния...<a href="page1.php">Още</a>
 								</div>
 							</div>
 							<br />
 							<div class="b2">
 								<div class="newsTitle">
-									<a href="#">
-										Лаптопите Правец удрят Apple в земята, духът на Тодор Живков става рекламно лице</a>
+										Лаптопите Правец удрят Apple в земята, духът на Тодор Живков става рекламно лице
 								</div>
 								<div class="img">
-									<a href="#">
+									<a href="page2.php">
 										<img alt="" src="./Images/sm_pravets.png">
 									</a>
 								</div>
 								<div class="desc">
-									Анонсираните вчера на pravetz.bg нови лаптопи, носещи легендарния компютърен бранд от миналото, ще борят конкуренцията...<a href="#">Още</a>
+									Анонсираните вчера на pravetz.bg нови лаптопи, носещи легендарния компютърен бранд от миналото, ще борят конкуренцията...<a href="page2.php">Още</a>
 								</div>
 							</div>
 							<br />
 							<div class="b3">
 								<div class="newsTitle">
-									<a href="#">
 										БУМ НА НАТРАВЯНИЯТА В КРАЯ НА МЕСЕЦ МАЙ
-									</a>
 								</div>
 								<div class="img">
-									<a href="#">
+									<a href="page3.php">
 										<img alt="" src="./Images/sm_alcohol.png">
 									</a>
 								</div>
-								<div class="desc">Напрежение в токсикологията на столичните болници...<a href="#">Още</a>
+								<div class="desc">Напрежение в токсикологията на столичните болници...<a href="page3.php">Още</a>
 								</div>
 							</div>
 						</div>
 						<br />
-						<h5> <a href="#">ВИЖ ВСИЧКИ НОВИНИ </a></h5>
+						<h5> <a href="news.php">ВИЖ ВСИЧКИ НОВИНИ </a></h5>
 					</article>
 			  </div>
 		  </section>
