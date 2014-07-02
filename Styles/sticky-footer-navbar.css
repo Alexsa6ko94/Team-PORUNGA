@@ -41,6 +41,15 @@ body {
 	display: inline-block;
 }
 
+#superNakov {
+	display: inline-block;
+}
+#superPetya {
+	display: inline-block;
+	float: right;
+}
+
+
 #footer-contacts {
 	list-style-type: none;
 	display: inline-flex;

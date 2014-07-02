@@ -118,6 +118,10 @@
 	<div id="superNakov">
 		<img alt="" src="./Images/supernakov1.png">
 	</div>
+	<div id="superPetya">
+		<img alt="" src="./Images/petya.png">
+	</div>
+	
 <?php
 	include ('bootstrap/loadBootstrap.php');
 	include ('includes/footer.php');
