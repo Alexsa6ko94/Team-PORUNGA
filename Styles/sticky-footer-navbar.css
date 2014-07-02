@@ -29,6 +29,34 @@ body {
 	background-color: black;
 }
 
+.semantic-header>h1 {
+	text-align: center;
+}
+
+.semantic-lead {
+	text-align: center;
+}
+
+.container .text-muted {
+	display: inline-block;
+}
+
+#footer-contacts {
+	list-style-type: none;
+	display: inline-flex;
+	float: right;
+}
+
+#footer-contacts>li {
+	margin-right: 5px;
+	margin-top: 20px;
+}
+
+#semantic-pic {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
 .navbar-default {
 	background-color: black;
 }
@@ -48,6 +76,12 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background-color: #FF9100;
+	color: black;
+	font-weight: bold;
 }
 
 .col-sm-4>div {
