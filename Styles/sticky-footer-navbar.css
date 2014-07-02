@@ -37,6 +37,10 @@ body {
 	text-align: center;
 }
 
+#Super-uni-logo {
+	float:left;
+}
+
 .container .text-muted {
 	display: inline-block;
 }

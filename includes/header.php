@@ -2,6 +2,7 @@
 		<nav>
 			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			  <div class="container test">
+				<img id="Super-uni-logo" alt="SuperUni Logo" title="SuperUni" src="./Images/sm_logo.png">
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
@@ -10,7 +11,6 @@
 					<span class="icon-bar"></span>
 				  </button>
 				  <a class="navbar-brand" href="#">TEAM PORUNGA</a>
-				  <img alt="" src="./Images/sm_logo.png">
 				</div>
 				<div class="collapse navbar-collapse">
 				  <ul class="nav navbar-nav">
