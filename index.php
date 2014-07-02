@@ -108,6 +108,8 @@
 								</div>
 							</div>
 						</div>
+						<br />
+						<h5> <a href="#">ВИЖ ВСИЧКИ НОВИНИ </a></h5>
 					</article>
 			  </div>
 		  </section>
