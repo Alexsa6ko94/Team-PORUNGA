@@ -10,6 +10,7 @@
 					<span class="icon-bar"></span>
 				  </button>
 				  <a class="navbar-brand" href="#">TEAM PORUNGA</a>
+				  <img alt="" src="./Images/sm_logo.png">
 				</div>
 				<div class="collapse navbar-collapse">
 				  <ul class="nav navbar-nav">
