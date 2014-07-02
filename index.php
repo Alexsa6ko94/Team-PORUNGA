@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The funny side of Software University">
-    <meta name="author" content="Alexandar Boyanov">
-    <link rel="shortcut icon" href="Images/favicon1.ico">
-    <link href="Styles/bootstrap.min.css" rel="stylesheet">
-    <link href="Styles/sticky-footer-navbar.css" rel="stylesheet">
-	<style type="text/css"></style>
+<?php 
+	include ('includes/metas.php');
+	include ('includes/css.php');
+?>    
 	<!--[if lt IE 9]>
 	<script src="html5shiv.js"></script>
 	<![endif]-->
@@ -24,27 +19,103 @@
 		  <div class="page-header">
 			<h1>SuperSoftUni</h1>
 		  </div>
-		  <p class="lead">Some text here</p>
+		  <p class="lead">Добре дошли! </p>
 		  <section class="col-sm-4">
 			  <div>
-				<h3>Content here</h3>
+				<h3>Fast Track курсове:</h3>
+			  	<p>Fast Track курсовете, позволяват, да усвоитедадена способност за максимано кратък период от време! Те могат да са изключително полезни за вашето бъдещо развитие, като супер герои.
+					Желаем ви много успехи! От екипа на SuperUni! </p>
+					<article class="fastTracks">
+						<div class="col">
+							<div class="b1">
+								<div class="trackTitle">
+									<a href="#">
+										fast track
+									</a>
+								</div>
+								<div class="img">
+									<a href="#">
+										<img alt="" src="./Images/.png">
+									</a>
+								</div>
+								<div class="desc">
+									fast track info...<a href="#">Още</a>
+								</div>
+							</div>
+							<br />
+						</div>
 			  </div>
-			  <p>Some text Some text Some text Some text Some text Some text Some text Some text </p>
 		  </section>
 		  <section class="col-sm-4">
 			  <div>
-				<h3>Content here</h3>
-				<p>Some text Some text Some text Some text Some text Some text Some text Some text </p>
-			  </div>
+				<h3>За университета:</h3>
+				<p>Подготвяме млади и талантливи супергерой, за реализацията си и работна позиция, като такива. Ако чувствате, че силата е във вас, моля свържете се с нас. За повече информация или въпроси, може да посетите нашият форум.
+					Желаем ви много успехи! От екипа на SuperUni!  </p>
+					<div class="img">
+						<a href="#">
+							<img alt="" src="./Images/sm_softuni.png">
+						</a>
+				  </div>
 		  </section>
 		  <section class="col-sm-4">
-			<p>Some text Some text Some text Some text Some text Some text Some text Some text </p>
 			  <div>
-				<h3>Content here</h3>
+				<h3>Новините</h3>
+					<article class="news">
+						<div class="col">
+							<div class="b1">
+								<div class="newsTitle">
+									<a href="#">
+										Христо Бисеров заменя Светлин Наков в СофтУни</a>
+								</div>
+								<div class="img">
+									<a href="#">
+										<img alt="" src="./Images/sm_biserov.png">
+									</a>
+								</div>
+								<div class="desc">
+									Напусналият Парламента и водещите си позиции в ДПС Христо Бисеров ще замени създателя на Софтуерния...<a href="#">Още</a>
+								</div>
+							</div>
+							<br />
+							<div class="b2">
+								<div class="newsTitle">
+									<a href="#">
+										Лаптопите Правец удрят Apple в земята, духът на Тодор Живков става рекламно лице</a>
+								</div>
+								<div class="img">
+									<a href="#">
+										<img alt="" src="./Images/sm_pravets.png">
+									</a>
+								</div>
+								<div class="desc">
+									Анонсираните вчера на pravetz.bg нови лаптопи, носещи легендарния компютърен бранд от миналото, ще борят конкуренцията...<a href="#">Още</a>
+								</div>
+							</div>
+							<br />
+							<div class="b3">
+								<div class="newsTitle">
+									<a href="#">
+										БУМ НА НАТРАВЯНИЯТА В КРАЯ НА МЕСЕЦ МАЙ
+									</a>
+								</div>
+								<div class="img">
+									<a href="#">
+										<img alt="" src="./Images/sm_alcohol.png">
+									</a>
+								</div>
+								<div class="desc">Напрежение в токсикологията на столичните болници...<a href="#">Още</a>
+								</div>
+							</div>
+						</div>
+					</article>
 			  </div>
 		  </section>
     </div>
-<?php 
+	<br /> 
+	<div id="superNakov">
+		<img alt="" src="./Images/supernakov1.png">
+	</div>
+<?php
 	include ('bootstrap/loadBootstrap.php');
 	include ('includes/footer.php');
 ?>
