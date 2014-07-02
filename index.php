@@ -23,27 +23,27 @@
 		  <section class="col-sm-4">
 			  <div>
 				<h3>Fast Track курсове:</h3>
-			  	<p>Fast Track курсовете, позволяват, да усвоитедадена способност за максимано кратък период от време! Те могат да са изключително полезни за вашето бъдещо развитие, като супер герои.
-					Желаем ви много успехи! От екипа на SuperUni! </p>
-					<article class="fastTracks">
-						<div class="col">
-							<div class="b1">
-								<div class="trackTitle">
-									<a href="#">
-										fast track
-									</a>
-								</div>
-								<div class="img">
-									<a href="#">
-										<img alt="" src="./Images/.png">
-									</a>
-								</div>
-								<div class="desc">
-									fast track info...<a href="#">Още</a>
-								</div>
-							</div>
-							<br />
+				<p>Fast Track курсовете, позволяват, да усвоитедадена способност за максимано кратък период от време! Те могат да са изключително полезни за вашето бъдещо развитие, като супер герои.
+				Желаем ви много успехи! От екипа на SuperUni! </p>
+				<article class="fastTracks">
+				<div class="col">
+					<div class="b1">
+						<div class="trackTitle">
+							<a href="#">
+								fast track
+							</a>
 						</div>
+						<div class="img">
+							<a href="#">
+								<img alt="" src="./Images/.png">
+							</a>
+						</div>
+						<div class="desc">
+							fast track info...<a href="#">Още</a>
+						</div>
+					</div>
+					<br />
+				</div>
 			  </div>
 		  </section>
 		  <section class="col-sm-4">
@@ -51,11 +51,11 @@
 				<h3>За университета:</h3>
 				<p>Подготвяме млади и талантливи супергерой, за реализацията си и работна позиция, като такива. Ако чувствате, че силата е във вас, моля свържете се с нас. За повече информация или въпроси, може да посетите нашият форум.
 					Желаем ви много успехи! От екипа на SuperUni!  </p>
-					<div class="img">
-						<a href="#">
-							<img alt="" src="./Images/sm_softuni.png">
-						</a>
-				  </div>
+				<div class="img">
+					<a href="#">
+						<img alt="" src="./Images/sm_softuni.png">
+					</a>
+			    </div>
 		  </section>
 		  <section class="col-sm-4">
 			  <div>
@@ -65,7 +65,8 @@
 							<div class="b1">
 								<div class="newsTitle">
 									<a href="#">
-										Христо Бисеров заменя Светлин Наков в СофтУни</a>
+										Христо Бисеров заменя Светлин Наков в СофтУни
+									</a>
 								</div>
 								<div class="img">
 									<a href="#">
