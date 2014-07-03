@@ -22,7 +22,7 @@
 					  <ul class="dropdown-menu">
 						<li><a href="SemanticWeb.php">Semantic Web</a></li>
 						<li><a href="about.php">About Us</a></li>
-						<li><a href="fastTrack.php">Fast Tracks</a></li>
+						<li><a href="AboutExam.php">Exams</a></li>
 						<li><a href="forum.php">Forum</a></li>
 						<li><a href="jokes.php">Jokes</a></li>
 					  </ul>

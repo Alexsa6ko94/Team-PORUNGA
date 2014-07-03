@@ -98,10 +98,12 @@ code {
 }
 
 .col-sm-4>div {
-	color: white;
-	/*border: 1px solid;*/
-	background-color: #5D3FF2;
+	color: black;
+	font-weight: bold;
+	border: 1px solid white;
+	background-color: #AA3FF2;
 	border-radius: 5px;
+	padding: 5px;
 }
 
 .navbar-default .navbar-nav>li>a {
