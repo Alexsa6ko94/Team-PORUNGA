@@ -45,20 +45,23 @@
 			  <div>
 				<h3>За университета:</h3>
 				<p>Подготвяме млади и талантливи супергерой, за реализацията си и работна позиция, като такива. Ако чувствате, че силата е във вас, моля свържете се с нас. За повече информация или въпроси, може да посетите нашият форум.
-					Желаем ви много успехи! От екипа на SuperUni!  </p>
+					Желаем ви много успехи! От екипа на SuperUni!</p>
 				<div class="img">
 					<a href="#">
 						<img width="100%" alt="" src="./Images/sm_softuni.png">
 					</a>
 			    </div>
-			     <div>
-				<h3>Забавление</h3>
-				<p>Това лято ще почиваме на луната. Всички са поканени!...<a href="#">Още</a></p>
-				<div class="img">
-					<a href="#">
-						<img width="50%" alt="" src="./Images/moon.jpg">
-					</a>
-			    </div>
+			    <div>
+					<h3>Забавление</h3>
+					<p>Това лято ще почиваме на луната. Всички са поканени!...<a href="#">Още</a></p>
+					<div class="img">
+						<a href="#">
+							<img width="50%" alt="" src="./Images/moon.jpg">
+						</a>
+					</div>
+				</div>
+				<br />
+			  </div>
 		  </section>
 		  <section class="col-sm-4">
 			  <div>
@@ -102,12 +105,13 @@
 										<img alt="" src="./Images/sm_alcohol.png">
 									</a>
 								</div>
-								<div class="desc">Напрежение в токсикологията на столичните болници...<a href="page3.php">Още</a>
+								<div 
+									class="desc">Напрежение в токсикологията на столичните болници...<a href="page3.php">Още</a>
 								</div>
+								<h5> <a href="news.php">ВИЖ ВСИЧКИ НОВИНИ </a></h5>
 							</div>
 						</div>
 						<br />
-						<h5> <a href="news.php">ВИЖ ВСИЧКИ НОВИНИ </a></h5>
 					</article>
 			  </div>
 		  </section>
