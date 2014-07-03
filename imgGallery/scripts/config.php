@@ -1,10 +1,10 @@
 <?php
 class dbConn
 {
-	private $user='root';
-	private $pass='vertrigo';
+	private $user='dbonevco';
+	private $pass='rnN8QY5d-,eR';
 	private $host='localhost';
-	private $dbname='porunga';
+	private $dbname='dbonevco_funcontent';
 	protected $db;
 	//konektvame se kam bazata danni
 	protected function connect()

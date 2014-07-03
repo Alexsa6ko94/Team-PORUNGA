@@ -66,12 +66,13 @@ img{
 	display: inline-block;
 }
 .smallImgContainer{
-	width: 25%;
-	max-width: 25%;
+	width: 21%;
+	max-width: 21%;
 	min-width: 100px;
 	display: inline-block;
 	float: left;
-	margin-bottom: -5px;
+	margin: 2%;
+	//margin-bottom: -5px;
 	//border: 2px solid red;
 }
 .smallImg{

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <?php 
 	include ('includes/metas.php');
 	include ('includes/css.php');
@@ -9,13 +10,19 @@
 	<script src="html5shiv.js"></script>
 	<![endif]-->
 	<title>Super Uni</title>
+<!-- galeriqta -->
+<script src="JS/galleryLoader.js"></script>
+<!-- smeshnoto sadarjanie -->
+<script src="JS/ajax.js"></script>
+<script src="JS/movingRegForm.js"></script>
+<script src="JS/showingFunContent.js"></script>
 </head>
 <body>
 <?php 
 	include ('includes/header.php');
 ?>
     <!-- Begin page content -->
-    <div class="container">
+    <div class="container mainContent">
 		  <div class="page-header">
 			<h1>SuperSoftUni</h1>
 		  </div>
@@ -123,7 +130,34 @@
 	<div id="superPetya">
 		<img alt="" src="./Images/petya.png">
 	</div>
-	
+	<!-- Бягаща форма за регистрация, заедно с прозорец, от които изкача смешно садържание -->
+<div class='funContent'>
+    <span class='closeFunContent'>
+    [ X ]
+    </span>
+    <header>
+    </header>
+    <main>
+        <section class="forFun">
+            <article class='txtHolder'>
+            </article>
+        </section>
+        <section class="forFun">
+            <article class='imgHolder'>
+            </article>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</div>
+<div class='regForm'>
+    <form>
+        <span class='regFieldNames'>Име:</span><span class='regFieldInputs'><input type='text' /></span><br />
+        <span class='regFieldNames'>Парола:</span><span class='regFieldInputs'><input type='text' /></span><br />
+        <input type='hidden' class='mouseTurns' />
+        <input type='button' value='Регистрация' />
+    </form>
+</div>
 <?php
 	include ('bootstrap/loadBootstrap.php');
 	include ('includes/footer.php');

@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/nextAndPrevImgs.js"></script>
-<link rel="stylesheet" href="style/gallery.css" type="text/css" />
+<script src="imgGallery/js/nextAndPrevImgs.js"></script>
+<link rel="stylesheet" href="imgGallery/style/gallery.css" type="text/css" />
 </head>
 <body>
 <div class='fullGalleryHolder'>

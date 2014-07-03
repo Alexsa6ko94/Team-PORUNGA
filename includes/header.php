@@ -10,13 +10,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="index.php">TEAM PORUNGA</a>
+				  <a class="navbar-brand" href="start.html">TEAM PORUNGA</a>
 				</div>
 				<div class="collapse navbar-collapse">
 				  <ul class="nav navbar-nav">
 					<li class="active"><a href="index.php">Home</a></li>
 					<li><a href="news.php">News</a></li>
-					<li><a href="gallery.php">Gallery</a></li>
+					<li><a class="galleryButton" href="gallery.php">Gallery</a></li>
 					<li class="dropdown">
 					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
 					  <ul class="dropdown-menu">
@@ -28,6 +28,8 @@
 					  </ul>
 					</li>
 					<li><a href="HexClock.html" id="hex"> 172809 </a></li>
+					<li><a class="regButton" href="#" id="hex">Регистрация </a></li>
+					<li><a class="forum" href="#" id="hex">Форум </a></li>
 				  </ul>
 				</div>
 			  </div>
