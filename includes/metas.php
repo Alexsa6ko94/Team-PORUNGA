@@ -3,3 +3,4 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="The funny side of Software University">
 <meta name="author" content="Alexandar Boyanov">
+<script src="js/galleryLoader.js"></script>
