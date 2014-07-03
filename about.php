@@ -40,7 +40,7 @@
 			<section class="col-sm-3">
 			<div>
 				<h3>Димитър Бонев</h3>
-				<p>JavaScript Master of disaster. Бъговете са присъщи за стилът му! Попаднете ли на негов код "Shif + delete"! <br />Не се колеайте! </p>
+				<p>JavaScript Master of disaster. Бъговете са присъщи за стила му! Попаднете ли на негов код "Shif + delete"! <br />Не се колебайте! </p>
 				<div class="img">
 					<img width="50%" alt="" src="./Images/mitaka.png">
 				</div>
