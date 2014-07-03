@@ -9,25 +9,20 @@
 	<script src="html5shiv.js"></script>
 	<![endif]-->
 </head>
-
 <body>
     <!-- Fixed navigation bar -->
 	<?php 
 		include ('includes/header.php');
 	?>
-	<!-- End of header-navbar -->
-	
-	
     <!-- Begin page content -->
     <div class="container">
-		  <div class="page-header semantic-header">
+		<div class="page-header semantic-header">
 			<h1>The truth about: Semantic Web</h1>
-		  </div>
-		  <p class="lead semantic-lead">Some text here</p>
-		  <section class="col-sm-12">
+		</div>
+		<p class="lead semantic-lead">Some text here</p>
+		<section class="col-sm-12">
 			<img id="semantic-pic" width="100%" height="100%" src="Images/SemanticWebChick.jpg" title"SemanticWeb" />
-		  </section>
-		  
+		</section>
     </div>
 	<!-- End of page content -->
 	
